@@ -9,7 +9,7 @@
 * main - Entry point
 * Return: Always 0 (Success)
 */
-int main(void)
+int print_alphabet(void)
 {
 char x = 97;
 for (; x <= 122; x++)
