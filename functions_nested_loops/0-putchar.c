@@ -10,12 +10,11 @@
 */
 int main(void)
 {
-        char x[9] = "_putchar";
+        char x[10] = {95, 112, 117, 116, 99, 104, 97, 114, 10};
         int i;
 
-        for (i = 0; i < 8; i++)
-                putchar(x[i]);
+        for (i = 0; i < 9; i++)
+               _putchar(x[i]);
 
-        putchar('\n');
 	return (0);
 }
