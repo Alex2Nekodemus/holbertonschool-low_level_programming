@@ -1,6 +1,7 @@
 #include <stdio.h>
+#include "main.h"
 /*
- *print _putchar only with putchar
+ *print _putchar with a function
 */
 
 /**
@@ -9,12 +10,6 @@
 */
 int main(void)
 {
-	char x[9] = "_putchar";
-	int i;
-
-	for (i = 0; i < 8; i++)
-		putchar(x[i]);
-
-	putchar('\n');
+	functionPutchar();
 	return (0);
 }

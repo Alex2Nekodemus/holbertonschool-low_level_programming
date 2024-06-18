@@ -1,5 +1,1 @@
-#ifndef MAIN.H
-#define MAIN.H
-
-
-#endif
+void functionPutchar(void);
