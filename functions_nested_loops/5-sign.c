@@ -14,13 +14,22 @@ int print_sign(int n)
 int x;
 
 if (n > 0)
+{
+	_putchar(43);
 	x = 1;
+}
 
 if (n == 0)
+{
+	_putchar(48);
 	x = 0;
+}
 
 if (n < 0)
+{
+	_putchar(45);
 	x = -1;
+}
 
 return (x);
 }
