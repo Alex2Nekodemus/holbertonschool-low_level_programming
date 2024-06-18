@@ -10,6 +10,12 @@
 */
 int main(void)
 {
-	functionPutchar();
+        char x[9] = "_putchar";
+        int i;
+
+        for (i = 0; i < 8; i++)
+                putchar(x[i]);
+
+        putchar('\n');
 	return (0);
 }
