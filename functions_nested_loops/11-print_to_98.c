@@ -1,11 +1,11 @@
 #include "main.h"
 
-/*
- * print_to_98 - print integers between n and 98
+/**
+ * print_to_98 - print all natural number from n to 98
  *
- * @n - input
+ * @n: natural number to print all the natural number to 98
  *
- * return - Nothing
+ * Return : No return, void function
  */
 void print_to_98(int n)
 {
