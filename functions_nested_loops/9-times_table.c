@@ -10,7 +10,7 @@ int i, j, x, y, z = 0;
 
 for (j = 0; j <= 9; j++)
 {
-	_putchar(0);
+	_putchar('0');
 	_putchar(44);
 
 	for (i = 1; i <= 9; i++)
