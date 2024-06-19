@@ -1,12 +1,9 @@
 #include "main.h"
 
-/*
- * determine if lowercase or not
- */
-
 /**
- * _islower - entry point 
- * parameter c  - int c is the ASCII of the character
+ * _islower - entry point
+ * description - Determine if the character is lowercase
+ * @c: input, character
  * Return: 0 or 1.
  */
 int _islower(int c)
