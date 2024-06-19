@@ -19,6 +19,8 @@ y = c % 10;
 
 if (y < 0)
 	y = -1 * y;
+else
+	_putchar('0' + y);
 
 return (y);
 }
