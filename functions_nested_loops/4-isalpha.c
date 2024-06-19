@@ -6,7 +6,7 @@
 
 /**
  * _isalpha - entry point
- * int c  - the ASCII of the character
+ * @c: the ASCII of the character
  * Return: 0 or 1.
  */
 int _isalpha(int c)
