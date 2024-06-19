@@ -1,16 +1,11 @@
-#include <stdlib.h>
 #include "main.h"
 
 /**
- * compute the absolute value of an integer
+ * _abs - Compute the absolute value
+ * @c: int to dertermine the absolute value of
+ *
+ * Return: Always c as the absolute value of input c
  */
-
-/**
- * _abs - function to compute the absolute value
- * @arg1 - int to dertermine the absolute value of
- * Return - c variable as absolute
- */
-
 int _abs(int c)
 {
 
